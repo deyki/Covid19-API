@@ -56,7 +56,7 @@ func DownloadDataFromUrl() *ErrorMessage {
 	if err != nil {
 		return &ErrorMessage{
 			HttpStatus: 	http.StatusInternalServerError,
-			Message: 		"Failed to get data from url",
+			Message: 	"Failed to get data from url",
 		}
 	}
 
