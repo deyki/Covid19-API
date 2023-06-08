@@ -77,5 +77,5 @@ func GetCountryByCountryCode(countryCode string) (*Country, *ErrorMessage) {
 		}
 	}
 
-	return nil, &ErrorMessage{HttpStatus: http.StatusBadRequest, Message: "Invalid country code or casching is in progress! Try again later."}
+	return nil, &ErrorMessage{HttpStatus: http.StatusBadRequest, Message: "Invalid country code or caching is in progress! Try again later."}
 }
